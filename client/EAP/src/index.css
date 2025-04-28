@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.dashboard-card {
+  @apply bg-white p-6 rounded-lg shadow hover:shadow-md transition-shadow;
+}
+
+.dashboard-title {
+  @apply text-2xl font-bold text-gray-800 mb-4;
+}
